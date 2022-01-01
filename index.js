@@ -1,7 +1,7 @@
 const { Telegraf } = require('telegraf')
 
 const bot = new Telegraf("5030611936:AAG0ToanPor7o_A9pF3c7YIPdqRMSqVFKoI")
-bot.start((ctx) => ctx.reply('Нажмите /help чтобы получить больше информации'))
+bot.start((ctx) => ctx.reply('Нажмите /help чтобы получить больше информации0'))
 bot.help((ctx) => ctx.reply('/id мой айди в игре\n/contact способ связи со мной\n/link мои соц сети\n/add реклама/предложения\n/clan информация про клан/набор в клан\n/crate аккаунт на открытие\n/developer разработчик бота\n\n/botversion информация о версии бота'))
 bot.command('id', (ctx) => ctx.reply('мой айди 575831447\n\nиспользуйте /help для того чтобы вернуться в главное меню'))
 bot.command('contact', (ctx) => ctx.reply('Телеграмм @Prosti_Bro\n\nиспользуйте /help для того чтобы вернуться в главное меню'))
